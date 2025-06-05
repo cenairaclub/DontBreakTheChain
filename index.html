@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Break The Chain</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <div class="container">
+        <header>
+            <h1 id="app-title">Don't Break The Chain</h1>
+            <div class="header-controls">
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="tr">Türkçe</option>
+                        <option value="es">Español</option>
+                        <option value="zh">中文</option>
+                        <option value="hi">हिन्दी</option>
+                        <option value="fr">Français</option>
+                        <option value="ar">العربية</option>
+                        <option value="ru">Русский</option>
+                        <option value="pt">Português</option>
+                        <option value="ja">日本語</option>
+                        <option value="de">Deutsch</option>
+                        <option value="ko">한국어</option>
+                    </select>
+                </div>
+                <div class="theme-switch">
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span id="theme-label">Dark Theme</span>
+                </div>
+            </div>
+        </header>
+        
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <button id="prev-month">&lt;</button>
+                <h2 id="month-year"></h2>
+                <button id="next-month">&gt;</button>
+            </div>
+            <div class="weekdays">
+                <div id="day-mon">Mon</div>
+                <div id="day-tue">Tue</div>
+                <div id="day-wed">Wed</div>
+                <div id="day-thu">Thu</div>
+                <div id="day-fri">Fri</div>
+                <div id="day-sat">Sat</div>
+                <div id="day-sun">Sun</div>
+            </div>
+            <div class="days" id="calendar-days"></div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat">
+                <span id="current-streak">0</span>
+                <p id="current-streak-label">Current Streak</p>
+            </div>
+            <div class="stat">
+                <span id="longest-streak">0</span>
+                <p id="longest-streak-label">Longest Streak</p>
+            </div>
+            <div class="stat">
+                <span id="total-days">0</span>
+                <p id="total-days-label">Total Days</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
