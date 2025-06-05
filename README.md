@@ -1,4 +1,5 @@
 # Don't Break The Chain
+![image](https://github.com/user-attachments/assets/98975efb-c62a-4e5a-aaad-963b28005534)
 
 "Don't Break The Chain" method is a popular technique to help build habits. This application helps you track activities you complete each day and visually create a "chain" of consecutive days.
 
